@@ -1,0 +1,1 @@
+#include <bits/stdc++.h>using namespace std;void check(long long n) {	     	     int temp=1;	     int cn=0;	     while((n%temp) == 0) {	     	temp++;		 }		 		 cout<<temp-1<<endl;	        	}int main() {		int t;	cin>>t;	while(t--)  {			  long long n;	  cin>>n;				check(n);	}	}
